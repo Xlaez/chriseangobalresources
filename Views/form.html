@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Chrisean|Global|Form</title>
+</head>
+<body>
+  <div id="form-decoration">
+    <form action="/form" method="POST">
+      <h3>Please fill  the form </h3>
+      <h4>Personal Information</h4>
+      <div class="container-form">
+       <div class="context-form">
+        <label for="Applyinf as">I am applying as</label>
+        <select id="apply-as">
+        <option value="Student">Student</option>
+        <option value="Agent">Agent</option>
+       </select>
+       </div>
+       <div class="context-form">
+        <label for="Prefix">Prefix</label>
+        <select name="prefix" id="prefix">
+          <option value="Mr">Mr</option>
+          <option value="Mrs">Mrs</option>
+          <option value="Miss">Miss</option>
+          <option value="Mx">Mx</option>
+          <option value="Dr">Dr</option>
+          <option value="Prof">Prof</option>
+        </select>
+       </div>
+       <div class="context-form">
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+       <div class="content-form">
+         <label for="Firstname">FirstName</label>
+         <input type="text" name="Firstname" id="firstname" required placeholder="FirstName">
+       </div>
+       <div class="content-form">
+         <label for="Lastname">LastName</label>
+        <input type="text" name="Lastname" id="Lastname" required placeholder="LastName">
+      </div>
+      <div class="content-form">
+        <label for="Email">Email</label>
+        <input type="email" name="Email address" id="email" requiredplaceholder="chriseanglobal@outlook.com">
+      </div>
+      <div class="content-form">
+        <label for="home address">Home Address</label>
+        <input type="text" name="Home address" id="h-address" required placeholder="Home Adress">
+      </div>
+      <div class="content-form">
+        <label for="city">City</label>
+        <input type="text" name="City" id="city" placeholder="City">
+      </div>
+      <div class="content-form">
+        <label for="province">Province/State</label>
+        <input type="text" name="Province/State" id="province" placeholder="State/Province">
+      </div>
+      <div class="content-form">
+        <label for="country">Country</label>
+        <input type="text" name="Country" id="country">
+      </div>
+      <div class="content-form">
+        <label for="date">Date of birth</label>
+        <input type="date" name="Date Of Birth" id="dob">
+      </div>
+      <div class="content-form">
+        <label for="nationality">Nationality </label>
+        <input type="text" name="Nationality" required id="nationality" >
+      </div>
+      <div class="content-form">
+        <label for="course to study">Course To Study</label>
+        <input type="text" name="Course to study" id="course" required placeholder="">
+      </div>
+      <div class="contents-form">
+        <label for="academic-record">Academic record</label>
+        <textarea name="Academic record" id="academic-record" cols="60" rows="5"></textarea>
+      </div>
+      <div class="contents-form">
+        <label for="level for educaation  ">Highest Level of Education</label>
+        <textarea name="Level of education" id="highest" cols="60" rows="5" placeholder=""></textarea>
+      </div>
+      <div class="context-form">
+        <label for="accomodation">In need of accomodation</label>
+        <select name="Accomodation" id="accomodation">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div class="context-form">
+        <label for="hear">How did you hear of us?</label>
+        <select name="How you heard of us" id="hear">
+          <option value="social media">Social media</option>
+          <option value="A friend">Someone</option>
+          <option value="Flyer">Flyer</option>
+          <option value="Other">Other</option>
+        </select>
+        </div>
+      </div>
+      <button  type="submit" id="submit-form">Submit</button>
+    </form>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>
